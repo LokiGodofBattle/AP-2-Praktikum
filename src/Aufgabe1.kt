@@ -84,7 +84,7 @@ open class Parkhaus(){
     }
 
     open fun ueberpruefen() : Boolean{
-        var correct = true;
+        var correct = true
 
         for(parkschein in parkscheine){
             if(parkschein.ausfahrtZeit.stunden*60 + parkschein.ausfahrtZeit.minuten
